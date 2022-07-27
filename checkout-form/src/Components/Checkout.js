@@ -85,7 +85,7 @@ export default function Checkout() {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
+      <Container component="main" maxWidth="sm" sx={{ mb: 4}}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
             <Avatar sx={{ m: 1, bgcolor: 'primary.main' }}>
             <AttachMoneyIcon />
@@ -112,6 +112,7 @@ export default function Checkout() {
                   shipped. There are also no refunds. If you did not read this section, than it 
                   is your own fault. You can attempt to take us to court, but you'll probably lose.
                 </Typography>
+                <Button variant="contained" href="https://www.epicgames.com/site/en-US/home">Return To Home Page</Button>
               </React.Fragment>
             ) : (
               <React.Fragment>
